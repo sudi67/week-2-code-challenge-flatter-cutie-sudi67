@@ -6,9 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const characterForm = document.getElementById('character-form'); // For bonus
 
   let characters = [
-    { name: 'Cat', votes: 0, image: '/home/sudeis/cute/cat.jpeg' },
-    { name: 'Penguin', votes: 0, image: '/home/sudeis/cute/penguine.jpg' },
-     { name: 'bear', votes: 0, image: 'https://media4.giphy.com/media/FArgGzk7KO14k/200.webp' },
+    { name: 'bear', votes: 0, image: 'https://media4.giphy.com/media/FArgGzk7KO14k/200.webp' },
     { name: 'cheetah', votes: 0, image: 'https://media1.giphy.com/media/xT0xeompFlF9acs3vi/giphy.webp' },
     { name: 'rabits', votes: 0, image: 'https://media2.giphy.com/media/bXdjYegbUX3b2/giphy.webp' },
     // Add more characters as needed
