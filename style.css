@@ -1,61 +1,111 @@
-html {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
+/* style.css */
 
-html, body {
+body {
+  font-family: Arial, din-2014, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   margin: 0;
-  padding: 0;
+  background-color: #7eada6;
 }
 
-.logo{
-  text-align: center;
-  background-color: rgb(49, 109, 179);
-  color: white;
-  padding: 0.5em;
+.logo {
+  margin-bottom: 20px;
 }
 
 #character-bar {
-  height: 15vh;
-  background: rgb(49, 109, 179);
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 3vh;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
-#character-bar span {
-  padding: 1%;
-  height: 80%;
-  width: 8vw;
-  display: flex;
-  justify-content: center;
-  font-size: 3vh;
-  align-items: center;
-  border-radius: 2em;
-  border: 1px solid white;
+#character-bar div {
+  padding: 10px;
+  background-color: #ecc204;
+  border: 1px solid #9ae907;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.characterInfo{
-  height: 550px;
-  padding: 30px;
-  font-size: 24px;
-  border: dotted;
+#character-bar div:hover {
+  background-color: #80deea;
+}
+
+.characterInfo {
   text-align: center;
 }
 
-input[type="submit"], button {
-  background-color: rgb(49, 109, 179);
+#detailed-info {
+  border: 1px solid #00bcd4;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#votes-form {
+  margin-top: 10px;
+}
+
+#votes-form input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#votes-form input[type="submit"],
+#reset-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00bcd4;
   color: white;
-  font-size: 18px;
-  border-radius: 6px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-input[type="text"] {
-  font-size: 3vh;
+#votes-form input[type="submit"]:hover,
+#reset-btn:hover {
+  background-color: #0097a7;
 }
 
-#image{
-  width: 300px;
-  height: 300px;
+/* Bonus: Add New Character Form */
+#character-form {
+  margin-top: 20px;
+}
+
+#character-form div {
+  margin-bottom: 10px;
+}
+
+#character-form input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#character-form input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00bcd4;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#character-form input[type="submit"]:hover {
+  background-color: #0097a7;
 }
