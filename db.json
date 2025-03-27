@@ -1,19 +1,34 @@
 {
   "characters": [
     {
-      "name": "Bear",
-      "votes": 0,
-      "image": "https://media4.giphy.com/media/FArgGzk7KO14k/200.webp"
+      "id": "2",
+      "name": "Mx. Monkey",
+      "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
+      "votes": 0
     },
     {
-      "name": "Cheetah",
-      "votes": 0,
-      "image": "https://media1.giphy.com/media/xT0xeompFlF9acs3vi/giphy.webp"
+      "id": "3",
+      "name": "Ms. Zebra",
+      "image": "https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif",
+      "votes": 0
     },
     {
-      "name": "Rabbits",
-      "votes": 0,
-      "image": "https://media2.giphy.com/media/bXdjYegbUX3b2/giphy.webp"
+      "id": "4",
+      "name": "Dr. Lion",
+      "image": "http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif",
+      "votes": 0
+    },
+    {
+      "id": "5",
+      "name": "Mme. Panda",
+      "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
+      "votes": 0
+    },
+    {
+      "id": 6,
+      "name": "Mr Lion",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpzkZxY8paE10enZXt8A_YYvcQlt3JPQdpKg&s",
+      "votes": 0
     }
   ]
 }
