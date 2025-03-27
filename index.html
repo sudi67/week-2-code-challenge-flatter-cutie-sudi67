@@ -1,49 +1,54 @@
-<html>
-  <head>
-    <title>Flatacuties</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flatacuties</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <header>
     <div class="logo">
       <h1>Flatacuties</h1>
     </div>
+  </header>
 
-    <div id="character-bar">
-      <!-- show characters names here -->
-    </div>
+  <main>
+    <nav id="character-bar" aria-label="Character Navigation">
+      <!-- Character names will be displayed here -->
+    </nav>
 
-    <div class="characterInfo">
+    <section class="characterInfo">
       <div id="detailed-info">
-        <p id="name">Character's Name</p>
-        <img
-          id="image"
-          src="assets/dummy.gif"
-          alt="Character's Name"
-        /><!-- display character image here -->
+        <h2 id="name">Character's Name</h2>
+        <img id="image" src="assets/dummy.gif" alt="Character's Name" />
         <h4>Total Votes: <span id="vote-count">Character's Votes</span></h4>
-        <form id="votes-form">
-          <input type="text" placeholder="Enter Votes" id="votes" name="votes" />
+        <form id="votes-form" aria-labelledby="votes-form-label">
+          <label for="votes" id="votes-form-label">Add Votes</label>
+          <input type="number" placeholder="Enter Votes" id="votes" name="votes" required />
           <input type="submit" value="Add Votes" />
         </form>
-        <button id="reset-btn">Reset Votes</button>
+        <button id="reset-btn" aria-label="Reset Votes">Reset Votes</button>
       </div>
 
-      <!-- Bonus only! Uncomment the elements below when you are ready to work on the bonus deliverables -->
-      <!-- 
-        <h4>Add New Character</h4>
-        <form id="character-form">
+      <!-- Bonus: Add New Character Form -->
+      <section id="add-character-section">
+        <h3>Add New Character</h3>
+        <form id="character-form" aria-labelledby="character-form-label">
           <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
+            <label for="new-name">Name</label>
+            <input type="text" id="new-name" name="name" required />
           </div>
           <div>
             <label for="image-url">Image URL</label>
-            <input type="text" id="image-url" name="image-url" />
+            <input type="url" id="image-url" name="image-url" required />
           </div>
           <input type="submit" value="Add Character" />
-        </form> 
-      -->
-    </div>
-    <script src="src/index.js"></script>
-  </body>
+        </form>
+      </section>
+    </section>
+  </main>
+
+  <script src="src/index.js"></script>
+</body>
 </html>
