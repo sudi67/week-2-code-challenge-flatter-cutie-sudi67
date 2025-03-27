@@ -1,28 +1,36 @@
 {
   "characters": [
     {
-      "id": "1",
+      "id": 6,
+      "name": "Mr Lion",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpzkZxY8paE10enZXt8A_YYvcQlt3JPQdpKg&s",
+      "votes": 0
+    },
+    {
+      "id": "7",
+      "name": "Ms. Elephant",
+      "image": "https://example.com/elephant.gif",
+      "votes": 0
+    },
+    {
+      "id": "3",
       "name": "Ms. Zebra",
       "image": "https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif",
       "votes": 0
     },
     {
-      "id": "2",
+      "id": "4",
       "name": "Dr. Lion",
       "image": "http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif",
       "votes": 0
     },
     {
-      "id": "3",
+      "id": "5",
       "name": "Mme. Panda",
       "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
       "votes": 0
-    },
-    {
-      "id": "4",
-      "name": "Mr Lion",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpzkZxY8paE10enZXt8A_YYvcQlt3JPQdpKg&s",
-      "votes": 0
-    
+    }
   ]
 }
+    
+     
